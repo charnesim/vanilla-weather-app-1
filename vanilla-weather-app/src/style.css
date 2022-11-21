@@ -2,14 +2,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.weather-app {
-  max-width: 450px;
-  margin: 30 auto;
-  padding: 20px;
-  border: 1px solid black;
-  border-radius: 10px;
-}
-
 h1 {
   font-size: 50px;
   line-height: 28px;
@@ -28,4 +20,18 @@ li {
 
 .degrees {
   font-size: 35px;
+}
+
+.weather-app {
+  max-width: 450px;
+  margin: 30 auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.units {
+  font-size: 15px;
+  position: relative;
+  top: -15px;
 }
